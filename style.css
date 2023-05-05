@@ -118,6 +118,7 @@ section .title::after, section .title1::after,section .title2::after,section .ti
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar .logo a{
     color: #fff;
     font-size: 35px;
