@@ -14,6 +14,13 @@ $(document).ready(function () {
       $(".scroll-up-btn").removeClass("show");
     }
   });
+  $(document).ready(function () {
+    $(".menu li a").click(function () {
+      $(".menu li a").removeClass("active");
+      $(this).addClass("active");
+    });
+  });
+
   // slide-up script
   $(".scroll-up-btn").click(function () {
     $("html").animate({ scrollTop: 0 });
