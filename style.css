@@ -67,6 +67,7 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+
 section .title, section .title1,section .title2,section .title3{
     position: relative;
     text-align: center;
